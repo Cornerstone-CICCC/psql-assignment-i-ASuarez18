@@ -1,0 +1,1 @@
+-- Get total submissions per class

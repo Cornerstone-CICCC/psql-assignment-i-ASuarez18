@@ -1,0 +1,1 @@
+-- Get total submissions enrolled students less 100

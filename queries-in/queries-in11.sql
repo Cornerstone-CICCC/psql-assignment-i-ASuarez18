@@ -1,0 +1,1 @@
+-- Get total assignment duration day

@@ -1,0 +1,1 @@
+-- Get avg total assistance requests class

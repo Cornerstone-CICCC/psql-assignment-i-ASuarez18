@@ -1,0 +1,1 @@
+-- Get total assignments per day greater than 10

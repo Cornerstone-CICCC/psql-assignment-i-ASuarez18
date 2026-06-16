@@ -1,0 +1,1 @@
+-- Get total time assignments per class

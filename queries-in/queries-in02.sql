@@ -1,0 +1,1 @@
+-- Get total assistance per student
