@@ -13,7 +13,7 @@ CREATE TABLE assignments(
 CREATE TABLE assignment_submissions(
   id SERIAL PRIMARY KEY,
   assignment_id INTEGER REFERENCES assignments(id) ON DELETE CASCADE,
-  student_id INTEGER NOT NULL,
+  student_id INTEGER NOT NULL REFERENCES students(id) ON DELETE CASCADE,
   duration INTEGER,
   submission_date TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
