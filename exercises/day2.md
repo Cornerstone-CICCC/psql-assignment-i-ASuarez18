@@ -231,8 +231,8 @@ SELECT avg(total_students) as average_students
 FROM (
 SELECT count(students) as total_students
 FROM students
-JOIN classs on classs.id = class_id
-GROUP BY classs
+JOIN classes on classes.id = class_id
+GROUP BY classes
 ) as totals_table;
 ```
 
